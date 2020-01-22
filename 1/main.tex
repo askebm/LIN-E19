@@ -38,13 +38,13 @@
   \href{#1}{{\usebeamercolor[bg]{SDUsimple}#2}}%
 }
 
-\title{Title}
-\subtitle{Subtitle}
+\title{Linux for Embedded Objects}
+\subtitle{LEO1-E19}
 %\date{\today}
 \date{ }
 
 \author{
-  \textbf{Author}
+	\textbf{Kernel \& User Space}
 }
 
 % - Give the names in the same order as they appear in the paper.
@@ -58,7 +58,8 @@
   University of Southern Denmark
 ] % optional - is placed in the bottom of the sidebar on every slide
 {% is placed on the bottom of the title page
-  SDU Robotics\\
+
+  %SDU Robotics\\
   The Maersk Mc-Kinney Moller Institute\\
   University of Southern Denmark
 
@@ -83,37 +84,40 @@
 %%%%%%%%%%%%%%%%
 
 % TOC
-\begin{frame}{Agenda}{\vphantom{(y}}
-\tableofcontents
-\end{frame}
 %%%%%%%%%%%%%%%
 
-\section{Introduction}
+\begin{frame}[t]{Overview}
+\begin{columns}
+	\begin{column}{0.5\textwidth}
+		\textbf{Kernel Space}
+		\begin{itemize}
+			\item Abstraction of hardware
+			\item Process Management
+			\item Virtual File System
+			\item Memory Management
+			\item Network Stack
+		\end{itemize}
+		\textbf{User Space}
+		\begin{itemize}
+			\item General applications
+		\end{itemize}
+		\vspace{0.9cm}
+		\textbf{Kernel Modules}
+		\begin{itemize}
+			\item Statically build
+			\item Dynamically loaded
+		\end{itemize}
 
-
-\subsection{Course Overview}
-\begin{frame}{Introduction}{Curriculum for Reguleringsteknik (REG)\vphantom{(y}}
-\vspace{-0.7em}
-{\footnotesize Matematiske og grafiske metoder til syntese af {\color{red}lineære tidsinvariante systemer}:\footnote{{\tiny Based on https://fagbesk.sam.sdu.dk/?fag\_id=39673}}
-\begin{itemize}
-\item {\color{red}diskret og kontinuert tilstandsbeskrivelse}
-\item analyse i tid og frekvens
-\item stabilitet, reguleringshastighed, følsomhed og fejl
-\item digitale PI, PID, LEAD og LAG regulatorer (serieregulatorer)
-\item tilstandsregulering, pole-placement og tilstands-estimering (observer)
-\item optimal regulering (least squares) og optimal tilstands-estimation (Kalman-filter)
-\end{itemize}
-\vspace{0.5em}
-\textbf{Færdigheder}:\\
-Efter gennemførelse af kurset kan den succesfulde studerende:
-\begin{itemize}
-\item kunne analysere, dimensionere og implementere såvel kontinuert som tidsdiskret regulering af lineære tidsinvariante og stokastiske systemer
-\end{itemize}
-\vspace{0.5em}
-\textbf{Kompetencer}:\\
-Efter gennemførelse af kurset kan den succesfulde studerende:
-\begin{itemize}
-\item anvende og implementere klassiske og moderne reguleringsteknikker for at kunne styre og regulere en robot hurtig og præcist
-\end{itemize}}
+	\end{column}
+	\begin{column}{0.5\textwidth}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\linewidth]{Img/kernelUserSpace.jpg}
+	\end{figure}
+		
+	\end{column}
+	
+\end{columns}
 \end{frame}
+
 \end{document}
