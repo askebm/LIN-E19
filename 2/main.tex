@@ -25,6 +25,7 @@
 \usepackage[english]{babel}
 \usepackage[T1]{fontenc}
 \usepackage{listings}
+\lstset{basicstyle=\tt}
 % Or whatever. Note that the encoding and the font should match. If T1
 % does not look nice, try deleting the line with the fontenc.
 \usepackage{helvet}
@@ -87,22 +88,78 @@
 \end{frame}
 %%%%%%%%%%%%%%%
 
+\section{Sockets}%
+\label{sec:sockets}
+
+
 \begin{frame}[t]{Sockets}
-	User Space representation of endpoint of network connection
+	User Space representation of endpoint of network connection\\
+	Socat
+	\lstinputlisting{Img/socatFile}
+	\lstinputlisting{Img/socatRecieve}
+
+
 \end{frame}
 
+\section{Iptables}%
+\label{sec:iptables}
+
+
 \begin{frame}[t]{Iptables}
+\begin{columns}
+	\begin{column}{0.2\textwidth}
 	\begin{itemize}
 		\item SNAT
 		\item DNAT
 		\item Firewall
 	\end{itemize}
+		
+	\end{column}
+	\begin{column}{0.8\textwidth}
+	\vspace{-1.1cm}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=1\linewidth]{Img/NAT.png}
+	\end{figure}
+		
+	\end{column}
+	
+\end{columns}
+
+
+
 \end{frame}
 
-\begin{frame}[t]{Routing}
+\begin{frame}[t]{Iptables}
+
+	\begin{tabular}{*{4}{l}}
+		Chain INPUT (policy ACCEPT)&&&\\
+		target&prot opt source&destination&\\
+
+		Chain FORWARD (policy ACCEPT)\\
+		target&prot opt source&destination&\\
+
+		Chain OUTPUT (policy ACCEPT)\\
+		target&prot opt source&destination&\\
+	\end{tabular}
+	
+\end{frame}
+
+\section{Infrastructure}%
+\label{sec:routing}
+
+
+\begin{frame}[t]{Infrastructure}
 	\begin{itemize}
 		\item DNS
+			\begin{itemize}
+				\item nslookup
+				\item dig +trace
+			\end{itemize}
 		\item DHCP
+			\begin{itemize}
+				\item dhcpcd
+			\end{itemize}
 	\end{itemize}
 \end{frame}
 
