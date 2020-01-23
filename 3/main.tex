@@ -111,17 +111,31 @@
 \end{frame}
 %%%%%%%%%%%%%%%
 
-\begin{frame}[t]{Hypervisor}
+\begin{frame}[t]{Cgroup}
+	
+\end{frame}
 
-%\begin{tabular}{|*{4}{c|}}
-%	\hline
-%	VM1 & VM2 & VM3 & VM4\\
-%	\hline
-%\multicolumn{4}{|c|}{Hypervisor}\\
-%\hline
-%\multicolumn{4}{|c|}{Hardware}\\
-%\hline
-%\end{tabular}
+\begin{frame}[t]{Container}
+\begin{itemize}
+	\item Docker
+	\item LXC
+\end{itemize}
+
+\begin{tabular}{|*{4}{c|}}
+	\hline
+	Container1 & Container2 & Container3 & Container4\\
+	\hline
+\multicolumn{4}{|c|}{Container Engine}\\
+	\hline
+\multicolumn{4}{|c|}{OS}\\
+\hline
+\multicolumn{4}{|c|}{Hardware}\\
+\hline
+\end{tabular}
+
+\end{frame}
+
+\begin{frame}[t]{Virtual Machine}
 
 \begin{columns}
 	\begin{column}{0.5\textwidth}
@@ -138,27 +152,6 @@
 	\end{column}
 \end{columns}
 
-
-\end{frame}
-
-\begin{frame}[t]{Container}
-\begin{itemize}
-	\item Docker
-	\item LXC
-	\item Cgroup
-\end{itemize}
-
-\begin{tabular}{|*{4}{c|}}
-	\hline
-	Container1 & Container2 & Container3 & Container4\\
-	\hline
-\multicolumn{4}{|c|}{Container Engine}\\
-	\hline
-\multicolumn{4}{|c|}{OS}\\
-\hline
-\multicolumn{4}{|c|}{Hardware}\\
-\hline
-\end{tabular}
 
 \end{frame}
 
