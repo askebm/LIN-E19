@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="container.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="296.39579"
+     inkscape:cy="640.0522"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1078"
+     inkscape:window-height="1894"
+     inkscape:window-x="1920"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Background">
+    <g
+       inkscape:label="Layer 1"
+       inkscape:groupmode="layer"
+       id="layer1"
+       style="display:none" />
+    <g
+       id="g5107">
+      <rect
+         ry="3.8809648"
+         y="133.3174"
+         x="29.937918"
+         height="16.063988"
+         width="74.396004"
+         id="rect4546"
+         style="opacity:1;vector-effect:none;fill:#de0000;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text4536"
+         y="142.79607"
+         x="67.048759"
+         style="font-style:normal;font-weight:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+           y="142.79607"
+           x="67.048759"
+           id="tspan4534"
+           sodipodi:role="line">Hardware</tspan></text>
+    </g>
+    <g
+       id="g5037"
+       transform="translate(0,-0.02147844)">
+      <rect
+         ry="3.8110118"
+         y="116.44516"
+         x="29.937918"
+         height="8"
+         width="74.396004"
+         id="rect4546-3"
+         style="opacity:1;vector-effect:none;fill:#003dff;fill-opacity:0.53107348;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text4532"
+         y="121.51572"
+         x="67.130234"
+         style="font-style:normal;font-weight:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+           y="121.51572"
+           x="67.130234"
+           id="tspan4530"
+           sodipodi:role="line">Container engine</tspan></text>
+    </g>
+    <g
+       id="g5027"
+       transform="translate(-12.662203,-0.01073791)">
+      <rect
+         ry="3.880965"
+         y="124.88127"
+         x="42.600121"
+         height="8"
+         width="74.396004"
+         id="rect4546-3-5"
+         style="opacity:1;vector-effect:none;fill:#ff8600;fill-opacity:0.80790962;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text4768"
+         y="130.29385"
+         x="80.01413"
+         style="font-style:normal;font-weight:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.26458332"
+           y="130.29385"
+           x="80.01413"
+           id="tspan4766"
+           sodipodi:role="line">OS</tspan></text>
+    </g>
+    <g
+       id="g5089">
+      <g
+         transform="translate(-6.1094761e-7,-9.1483195e-6)"
+         id="g4989">
+        <rect
+           style="opacity:1;vector-effect:none;fill:#00de10;fill-opacity:0.70056499;stroke:#000000;stroke-width:0.25645801;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4600"
+           width="24.43257"
+           height="8.7019958"
+           x="29.644173"
+           y="107.27911"
+           ry="0.85426587" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="41.930565"
+           y="113.07678"
+           id="text4520"><tspan
+             sodipodi:role="line"
+             id="tspan4518"
+             x="41.930565"
+             y="113.07678"
+             style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Container1</tspan></text>
+      </g>
+      <g
+         transform="translate(-1.910725,0.58287659)"
+         id="g5002">
+        <rect
+           style="opacity:1;vector-effect:none;fill:#00de10;fill-opacity:0.70056499;stroke:#000000;stroke-width:0.25645801;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4600-3"
+           width="24.432571"
+           height="8.7019958"
+           x="56.471985"
+           y="106.69623"
+           ry="0.85426587" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="68.378838"
+           y="112.4939"
+           id="text4524"><tspan
+             sodipodi:role="line"
+             id="tspan4522"
+             x="68.378838"
+             y="112.4939"
+             style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Container2</tspan></text>
+      </g>
+      <g
+         transform="translate(23.006359,0.58287659)"
+         id="g5002-7">
+        <rect
+           style="opacity:1;vector-effect:none;fill:#00de10;fill-opacity:0.70056499;stroke:#000000;stroke-width:0.25645801;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4600-3-5"
+           width="24.432571"
+           height="8.7019958"
+           x="56.471985"
+           y="106.69623"
+           ry="0.85426587" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="68.378838"
+           y="112.4939"
+           id="text4524-3"><tspan
+             sodipodi:role="line"
+             id="tspan4522-5"
+             x="68.378838"
+             y="112.4939"
+             style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Container3</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
