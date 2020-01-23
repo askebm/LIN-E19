@@ -25,6 +25,30 @@
 \usepackage[english]{babel}
 \usepackage[T1]{fontenc}
 \usepackage{listings}
+\usepackage{tikz}
+
+
+%===========================================================================
+%================= Allow the use of \includesvg, via inkscape===============
+%===========================================================================
+\usepackage{calc}
+\usepackage{import}
+
+\newcommand{\executeiffilenewer}[3]{%
+\ifnum\pdfstrcmp{\pdffilemoddate{#1}}%
+{\pdffilemoddate{#2}}>0%
+{\immediate\write18{#3}}\fi%
+}
+\newcommand{\includesvg}[2][./]{%
+\executeiffilenewer{#1#2.svg}{#1#2.pdf}
+{inkscape -z -D --file=#1#2.svg --export-pdf=#1#2.pdf --export-latex}
+\import{#1}{#2.pdf_tex}
+}
+% ex. \includesvg[images/]{image} Trailing slash er vigtigt for stien
+% Kilde: http://ctan.math.utah.edu/ctan/tex-archive/info/svg-inkscape/InkscapePDFLaTeX.pdf
+% Størrelse kan blive sat med \def\svgwidth{<size>} eller \def\svgscale{<scale>} umiddelbart før \includesvg
+
+
 % Or whatever. Note that the encoding and the font should match. If T1
 % does not look nice, try deleting the line with the fontenc.
 \usepackage{helvet}
@@ -88,20 +112,32 @@
 %%%%%%%%%%%%%%%
 
 \begin{frame}[t]{Hypervisor}
-\begin{itemize}
-	\item Proxmox
-	\item VMware
-\end{itemize}
 
-\begin{tabular}{|*{4}{c|}}
-	\hline
-	VM1 & VM2 & VM3 & VM4\\
-	\hline
-\multicolumn{4}{|c|}{Hypervisor}\\
-\hline
-\multicolumn{4}{|c|}{Hardware}\\
-\hline
-\end{tabular}
+%\begin{tabular}{|*{4}{c|}}
+%	\hline
+%	VM1 & VM2 & VM3 & VM4\\
+%	\hline
+%\multicolumn{4}{|c|}{Hypervisor}\\
+%\hline
+%\multicolumn{4}{|c|}{Hardware}\\
+%\hline
+%\end{tabular}
+
+\begin{columns}
+	\begin{column}{0.5\textwidth}
+		\begin{figure}[h]
+			\centering
+			\includesvg[Img/]{hypervisor}
+		\end{figure}
+	\end{column}
+	\begin{column}{0.5\textwidth}
+		\begin{figure}[h]
+			\centering
+			\includesvg[Img/]{hypervisor2}
+		\end{figure}
+	\end{column}
+\end{columns}
+
 
 \end{frame}
 

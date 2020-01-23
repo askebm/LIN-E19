@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="hypervisor.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="193.48655"
+     inkscape:cy="628.93734"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1918"
+     inkscape:window-height="1054"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Background">
+    <g
+       inkscape:label="Layer 1"
+       inkscape:groupmode="layer"
+       id="layer1" />
+    <g
+       id="g4673"
+       transform="translate(1.3062188,-3.7041687)">
+      <rect
+         ry="3.8809648"
+         y="137.02156"
+         x="41.293903"
+         height="16.063988"
+         width="37.797619"
+         id="rect4546"
+         style="opacity:1;vector-effect:none;fill:#de0000;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text4536"
+         y="146.50023"
+         x="68.88607"
+         style="font-style:normal;font-weight:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="text-align:end;text-anchor:end;stroke-width:0.26458332"
+           y="146.50023"
+           x="68.88607"
+           id="tspan4534"
+           sodipodi:role="line">Hardware</tspan></text>
+    </g>
+    <g
+       id="g4668"
+       transform="translate(0.26678632,0.68180016)">
+      <rect
+         ry="3.880965"
+         y="115.94942"
+         x="42.333336"
+         height="16.063988"
+         width="37.797619"
+         id="rect4546-3"
+         style="opacity:1;vector-effect:none;fill:#003dff;fill-opacity:0.53107348;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text4532"
+         y="125.05197"
+         x="71.174171"
+         style="font-style:normal;font-weight:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="text-align:end;text-anchor:end;stroke-width:0.26458332"
+           y="125.05197"
+           x="71.174171"
+           id="tspan4530"
+           sodipodi:role="line">Hypervisor</tspan></text>
+    </g>
+    <g
+       id="g5463"
+       transform="translate(0,-2.7204553e-5)">
+      <g
+         id="g5439">
+        <rect
+           style="opacity:1;vector-effect:none;fill:#00de10;fill-opacity:0.70056499;stroke:#000000;stroke-width:0.25645801;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4600"
+           width="11.536816"
+           height="8.7019958"
+           x="42.866917"
+           y="107.31133"
+           ry="0.85426587" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="52.646622"
+           y="113.07679"
+           id="text4520"><tspan
+             sodipodi:role="line"
+             id="tspan4518"
+             x="52.646622"
+             y="113.07679"
+             style="text-align:end;text-anchor:end;stroke-width:0.26458332">VM1</tspan></text>
+      </g>
+      <g
+         id="g5444">
+        <rect
+           style="opacity:1;vector-effect:none;fill:#00de10;fill-opacity:0.70196078;stroke:#000000;stroke-width:0.25645801;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4600-6"
+           width="11.536816"
+           height="8.7019958"
+           x="55.730522"
+           y="107.31133"
+           ry="0.85426587" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="65.495071"
+           y="113.10238"
+           id="text4524"><tspan
+             sodipodi:role="line"
+             id="tspan4522"
+             x="65.495071"
+             y="113.10238"
+             style="text-align:end;text-anchor:end;stroke-width:0.26458332">VM2</tspan></text>
+      </g>
+      <g
+         id="g5449">
+        <rect
+           style="opacity:1;vector-effect:none;fill:#00de10;fill-opacity:0.70196078;stroke:#000000;stroke-width:0.25645801;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4600-7"
+           width="11.536816"
+           height="8.7019958"
+           x="68.594131"
+           y="107.31133"
+           ry="0.85426587" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.88055563px;line-height:1.25;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="78.397522"
+           y="113.07489"
+           id="text4528"><tspan
+             sodipodi:role="line"
+             id="tspan4526"
+             x="78.397522"
+             y="113.07489"
+             style="text-align:end;text-anchor:end;stroke-width:0.26458332">VM3</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
