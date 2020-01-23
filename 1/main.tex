@@ -25,6 +25,7 @@
 \usepackage[english]{babel}
 \usepackage[T1]{fontenc}
 \usepackage{listings}
+\lstset{basicstyle=\tt\tiny}
 % Or whatever. Note that the encoding and the font should match. If T1
 % does not look nice, try deleting the line with the fontenc.
 \usepackage{helvet}
@@ -89,24 +90,6 @@
 \begin{frame}[t]{Overview}
 \begin{columns}
 	\begin{column}{0.5\textwidth}
-		\textbf{Kernel Space}
-		\begin{itemize}
-			\item Abstraction of hardware
-			\item Process Management
-			\item Virtual File System
-			\item Memory Management
-			\item Network Stack
-		\end{itemize}
-		\textbf{User Space}
-		\begin{itemize}
-			\item General applications
-		\end{itemize}
-		\vspace{0.9cm}
-		\textbf{Kernel Modules}
-		\begin{itemize}
-			\item Statically build
-			\item Dynamically loaded
-		\end{itemize}
 
 	\end{column}
 	\begin{column}{0.5\textwidth}
@@ -118,6 +101,42 @@
 	\end{column}
 	
 \end{columns}
+\end{frame}
+
+\begin{frame}[t]{Kernel}
+	\textbf{Kernel Space}
+	\begin{itemize}
+		\item Abstraction of hardware
+		\item Process Management
+		\item Virtual File System
+		\item Memory Management
+		\item Network Stack
+		\item What is a kernel
+		\item What can we use it for 
+		\item How do we interact with it
+		\item What is a syscall
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[t]{Kernel modules}
+		\textbf{Kernel Modules}
+		\begin{itemize}
+			\item Statically build
+			\item Dynamically loaded
+		\end{itemize}
+
+\end{frame}
+
+\begin{frame}[t]{User Space}
+	General applications\\
+	\vspace{2cm}
+	Examples, ls, cd, chmod, wm, de...
+\end{frame}
+
+\begin{frame}[t]{User Space}{strace example}
+
+\Huge Demo
+
 \end{frame}
 
 \end{document}
