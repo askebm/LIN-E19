@@ -87,23 +87,40 @@
 % TOC
 %%%%%%%%%%%%%%%
 
-\begin{frame}[t]{Overview}
-\begin{columns}
-	\begin{column}{0.5\textwidth}
-
-	\end{column}
-	\begin{column}{0.5\textwidth}
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=\linewidth]{Img/kernelUserSpace.jpg}
-	\end{figure}
-		
-	\end{column}
-	
-\end{columns}
+\begin{frame}[t]{Agenda}
+	\tableofcontents
 \end{frame}
 
-\begin{frame}[t]{Kernel}
+\section{Overview}%
+\label{sec:overview}
+
+
+
+\section{Kernel Space}%
+\label{sec:kernel_space}
+
+\subsection{What it is}%
+\label{sub:what_it_is}
+
+\subsection{How we use it}%
+\label{sub:how_we_use_it}
+
+\section{User Space}%
+\label{sec:user_space}
+
+
+
+
+
+\begin{frame}[t]{Overview}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.6\linewidth]{Img/kernelspace2.png}
+	\end{figure}
+		
+\end{frame}
+
+\begin{frame}[t]{Kernel Space}
 	\textbf{Kernel Space}
 	\begin{itemize}
 		\item Abstraction of hardware
@@ -118,25 +135,13 @@
 	\end{itemize}
 \end{frame}
 
-\begin{frame}[t]{Kernel modules}
-		\textbf{Kernel Modules}
-		\begin{itemize}
-			\item Statically build
-			\item Dynamically loaded
-		\end{itemize}
-
-\end{frame}
 
 \begin{frame}[t]{User Space}
-	General applications\\
-	\vspace{2cm}
-	Examples, ls, cd, chmod, wm, de...
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.65\linewidth]{Img/userspace.png}
+	\end{figure}
 \end{frame}
 
-\begin{frame}[t]{User Space}{strace example}
-
-\Huge Demo
-
-\end{frame}
 
 \end{document}
