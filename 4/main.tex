@@ -81,13 +81,31 @@
 \end{frame}}
 %%%%%%%%%%%%%%%%
 
-% TOC
-\begin{frame}{Agenda}{\vphantom{(y}}
-\tableofcontents
-\end{frame}
 %%%%%%%%%%%%%%%
 
+\begin{frame}[t]{Motivation}
+    \begin{itemize}
+        \item Access control on local system
+        \item Protection of data in-transit and at rest 
+        \item Avoid impersonation
+    \end{itemize}  
+\end{frame}
+
+\begin{frame}[t]{Multi User System}
+	\vspace{-0.4cm}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.35\linewidth]{Img/grumpy-chmod-777.png}
+	\end{figure}
+\end{frame}
+
 \begin{frame}[t]{Firewall}
+    \begin{itemize}
+        \item Good policy
+\end{itemize}
+
+\\
+
 \tt
 \begin{tabular}{*{4}{l}}
 Chain INPUT (policy ACCEPT)&&&\\
@@ -104,11 +122,10 @@ target&prot opt source&destination&\\
 
 \begin{frame}[t]{Encryption}
 	\begin{itemize}
-		\item symmetric
+		\item Symmetric
 			\begin{itemize}
-				\item Fast
 			\end{itemize}
-		\item Asymetric
+		\item Asymmetric 
 			\begin{itemize}
 				\item SSH key
 				\item PGP
@@ -116,12 +133,5 @@ target&prot opt source&destination&\\
 	\end{itemize}
 \end{frame}
 
-\begin{frame}[t]{Multi User}
-	\vspace{-0.4cm}
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=0.35\linewidth]{Img/grumpy-chmod-777.png}
-	\end{figure}
-\end{frame}
 
 \end{document}
