@@ -26,6 +26,11 @@
 \usepackage[T1]{fontenc}
 \usepackage{listings}
 \lstset{basicstyle=\tt\tiny}
+
+\usepackage{tikz}
+\usetikzlibrary{graphs}
+\usetikzlibrary{arrows,positioning, calc}
+\tikzstyle{vertex}=[draw,fill=black!15,square,minimum width=2.5cm,minimum height=5mm,inner sep=0pt]
 % Or whatever. Note that the encoding and the font should match. If T1
 % does not look nice, try deleting the line with the fontenc.
 \usepackage{helvet}
@@ -76,6 +81,35 @@
 %  \hspace{1cm}\pgfuseimage{titlepagelogo2}
 }
 
+\newcommand{\kernel}[6] {
+	\begin{tikzpicture}[node distance=1.5mm,font=\scriptsize]
+		\draw
+			node [vertex,fill=green!#1] (wm) 								{\color{black!#2}{Window manager}}
+			node [vertex,right=of wm,fill=green!#1]  (libs) {\color{black!#2}{Libraries}}
+			node [vertex,left=of wm,fill=green!#1] (apps) 	{\color{black!#2}{Applications}}
+
+			node [vertex,below=of wm,minimum width=7.5cm + 3mm,fill=blue!#3]  (sci)
+			{\color{black!#4}{System call interface}}
+
+			node [vertex,below=of sci,fill=blue!#3] (ipc) 	{\color{black!#4}{IPC}}
+			node [vertex,right=of ipc,fill=blue!#3]  (vfs) 	{\color{black!#4}{Virtual File System}}
+			node [vertex,left=of ipc,fill=blue!#3] (pm) 		{\color{black!#4}{Process management}}
+
+			node [vertex,below=of ipc,fill=blue!#3] (ns) 		{\color{black!#4}{Network subsystem}}
+			node [vertex,right=of ns,fill=blue!#3]  (sel) 	{\color{black!#4}{SELinux/Apparmor}}
+			node [vertex,left=of ns,fill=blue!#3] (mm) 			{\color{black!#4}{Memory management}}
+
+			node [vertex,below=of ns,minimum width=7.5cm + 3mm,fill=blue!#3]  (ddm)
+																											{\color{black!#4}{Drivers and dynamic modules}}
+
+			node [vertex,below=of ddm,minimum width=7.5cm + 3mm,fill=red!#5] (adc)
+																											{\color{black!#6}{Architechture dependent code}}
+
+			node [vertex,below=of adc,minimum width=7.5cm + 3mm,fill=red!#5] (pa)
+																											{\color{black!#6}{Processor architechture}};
+	\end{tikzpicture}
+}
+
 \begin{document}
 % the titlepage
 {\SDUwavesbg%
@@ -112,35 +146,37 @@
 
 
 
+
 \begin{frame}[t]{Overview}
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=0.6\linewidth]{Img/kernelspace2.png}
-	\end{figure}
-		
+	\center
+	\kernel{50}{100}{50}{100}{50}{100}
 \end{frame}
 
 \begin{frame}[t]{Kernel Space}
-	\textbf{Kernel Space}
-	\begin{itemize}
-		\item Abstraction of hardware
-		\item Process Management
-		\item Virtual File System
-		\item Memory Management
-		\item Network Stack
-		\item What is a kernel
-		\item What can we use it for 
-		\item How do we interact with it
-		\item What is a syscall
-	\end{itemize}
+	\center
+	\kernel{30}{50}{50}{100}{30}{50}
 \end{frame}
 
 
+%\begin{frame}[t]{Kernel Space}
+%	\textbf{Kernel Space}
+%	\begin{itemize}
+%		\item Abstraction of hardware
+%		\item Process Management
+%		\item Virtual File System
+%		\item Memory Management
+%		\item Network Stack
+%		\item What is a kernel
+%		\item What can we use it for 
+%		\item How do we interact with it
+%		\item What is a syscall
+%	\end{itemize}
+%\end{frame}
+
+
 \begin{frame}[t]{User Space}
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=0.65\linewidth]{Img/userspace.png}
-	\end{figure}
+	\center
+	\kernel{50}{100}{30}{50}{30}{50}
 \end{frame}
 
 
