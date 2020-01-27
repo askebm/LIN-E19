@@ -83,7 +83,7 @@
 
 %%%%%%%%%%%%%%%
 
-\begin{frame}[t]{Motivation}
+\begin{frame}[t]{Motivation}{\phantom{(y)}}
     \begin{itemize}
         \item Access control on local system
         \item Protection of data in-transit and at rest 
@@ -91,7 +91,7 @@
     \end{itemize}  
 \end{frame}
 
-\begin{frame}[t]{Multi User System}
+\begin{frame}[t]{Multi User System}{\phantom{(y)}}
 	\vspace{-0.4cm}
 	\begin{figure}[h]
 		\centering
@@ -99,28 +99,27 @@
 	\end{figure}
 \end{frame}
 
-\begin{frame}[t]{Firewall}
-    \begin{itemize}
-        \item Good policy
-\end{itemize}
+\begin{frame}[t]{Firewall}{\phantom{(y)}}
+	\begin{itemize}
+		\item Good policy
+	\end{itemize}
 
-\\
+	\\
 
-\tt
-\begin{tabular}{*{4}{l}}
-Chain INPUT (policy ACCEPT)&&&\\
-target&prot opt source&destination&\\
+	\tt
+	\begin{tabular}{*{4}{l}}
+		Chain INPUT (policy ACCEPT)&&&\\
+		target&prot opt source&destination&\\
 
-Chain FORWARD (policy ACCEPT)\\
-target&prot opt source&destination&\\
+		Chain FORWARD (policy ACCEPT)\\
+		target&prot opt source&destination&\\
 
-Chain OUTPUT (policy ACCEPT)\\
-target&prot opt source&destination&\\
-\end{tabular}
-
+		Chain OUTPUT (policy ACCEPT)\\
+		target&prot opt source&destination&
+	\end{tabular}
 \end{frame}
 
-\begin{frame}[t]{Encryption}
+\begin{frame}[t]{Encryption}{\phantom{(y)}}
 	\begin{itemize}
 		\item Symmetric
 			\begin{itemize}
