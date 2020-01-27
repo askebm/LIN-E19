@@ -131,8 +131,8 @@
 \end{frame}
 
 \begin{frame}[t]{Iptables - Filter}{\phantom{(y)}}
-
-	\textbf{Filter Table}
+	\vfill
+	\center
 	\begin{tabular}{*{4}{l}}
 		Chain INPUT (policy ACCEPT)&&&\\
 		target&prot opt source&destination&\\
@@ -143,12 +143,13 @@
 		Chain OUTPUT (policy ACCEPT)\\
 		target&prot opt source&destination&\\
 	\end{tabular}
+	\vfill
 
 	
 \end{frame}
 \begin{frame}[t]{Iptables - NAT}{\phantom{(y)}}
-
-	\textbf{NAT Table}
+	\vfill
+	\center
 	\begin{tabular}{*{3}{l}}
 		Chain PREROUTING (policy ACCEPT)\\
 		target&prot opt source&destination\\
@@ -162,6 +163,7 @@
 		Chain POSTROUTING (policy ACCEPT)\\
 		target&prot opt source&destination
 	\end{tabular}
+	\vfill
 	
 \end{frame}
 
